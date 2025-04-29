@@ -1,7 +1,7 @@
 {
-  "name": "thedarktheme",
-  "displayName": "thedark theme",
-  "description": "The dark theme availabel in the marketplace",
+  "name": "theprimetime",
+  "displayName": "theprimeaget",
+  "description": "theprimeabhi",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "thedark theme",
+        "label": "theprimeagent",
         "uiTheme": "vs-dark",
         "path": "thedarktheme\themes\thedark theme-color-theme.json"
       }
