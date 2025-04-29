@@ -1,0 +1,28 @@
+{
+  "name": "theprimeagen",
+  "displayName": "the primeagen theme",
+  "description": "A custom them inspired by theprimeagen , developed by abhishekat",
+  "version": "0.0.1",
+  "publisher": "abhishektumula",  
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "theprimeagen",
+        "uiTheme": "vs-dark",  
+        "path": "./theprimetime/themes/theprimeagent-color-theme.json"  
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "echo 'No compile step needed for a theme!'"
+  },
+  "devDependencies": {
+    "vsce": "^2.0.0"
+  }
+}

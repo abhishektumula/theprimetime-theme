@@ -1,0 +1,119 @@
+{
+  "name": "theprimeagen theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "sideBar.background": "#000000",
+    "activityBar.background": "#000000",
+    "statusBar.background": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "terminal.background": "#000000",
+    "editorLineNumber.foreground": "#6e6a86",
+    "editorCursor.foreground": "#eb6f92",
+    "editor.foreground": "#e0def4",
+    "editor.selectionBackground": "#403d52",
+    "editor.lineHighlightBackground": "#1f1d2e",
+    "editorIndentGuide.background": "#2a273f",
+    "editorWhitespace.foreground": "#2a273f",
+
+    // Tabs and Tab Panel
+    "tab.activeBackground": "#000000",
+    "tab.inactiveBackground": "#000000",
+    "tab.activeForeground": "#e0def4",
+    "tab.inactiveForeground": "#6e6a86",
+    "tab.border": "#1f1d2e",
+
+    // Dropdowns, Menus, and Quick Input
+    "dropdown.background": "#000000",
+    "dropdown.foreground": "#e0def4",
+    "quickInput.background": "#000000",
+    "quickInput.foreground": "#e0def4",
+    "quickInputTitle.background": "#1f1d2e",
+
+    // Ctrl+Tab Switcher
+    "editorGroup.border": "#1f1d2e",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGroupHeader.noTabsBackground": "#000000",
+
+    // Command Palette (Ctrl+Shift+P), Ctrl+P, etc.
+    "pickerGroup.foreground": "#c4a7e7",
+    "pickerGroup.border": "#1f1d2e",
+
+    // Scrollbars
+    "scrollbarSlider.background": "#2a273f66",
+    "scrollbarSlider.hoverBackground": "#2a273faa",
+    "scrollbarSlider.activeBackground": "#2a273f",
+
+    // Menus and Context Menus
+    "menu.background": "#000000",
+    "menu.foreground": "#e0def4",
+    "menu.selectionBackground": "#403d52",
+    "menu.selectionForeground": "#e0def4",
+    "menu.separatorBackground": "#1f1d2e"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6e6a86",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#f6c177"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#ebbcba"
+      }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#e0def4"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#c4a7e7"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#9ccfd8"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#f6c177"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#ebbcba"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "support.class"],
+      "settings": {
+        "foreground": "#eb6f92"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#000000",
+        "background": "#eb6f92"
+      }
+    }
+  ]
+}
+
